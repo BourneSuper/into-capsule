@@ -1,0 +1,18 @@
+{
+    "name": "administrator/into-capsule",
+    "authors": [
+        {
+            "name": "BourneSuper",
+            "email": "bourne_w@sina.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "nikic/php-parser": "^4.10"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "BS\\IC\\" : "src/"
+        }
+    }
+}
